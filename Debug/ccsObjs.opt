@@ -1,0 +1,1 @@
+"./lm3s8962_startup_ccs_gcc.o" "./main.o" "./rit128x96x4.o" "./ustdlib.o" "./freeRTOS/heap_1.o" "./freeRTOS/list.o" "./freeRTOS/port.o" "./freeRTOS/queue.o" "./freeRTOS/tasks.o" -Wl,-T"../lm3s8962.lds" -Wl,--start-group -ldriver-cm3 -lc -Wl,--end-group 
